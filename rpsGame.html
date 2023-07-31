@@ -12,11 +12,11 @@
     </section>
     
     <section>
-        <button onclick="checkWin('rock');" class="move-button"><img src="rpsImages/rock-emoji.png" alt="Rock" class="move-icon"></button>
+        <button class="move-button js-rock-button"><img src="rpsImages/rock-emoji.png" alt="Rock" class="move-icon"></button>
 
-        <button onclick="checkWin('paper');" class="move-button"><img src="rpsImages/paper-emoji.png" alt="Paper" class="move-icon"></button>
+        <button class="move-button js-paper-button"><img src="rpsImages/paper-emoji.png" alt="Paper" class="move-icon"></button>
 
-        <button onclick="checkWin('scissors');" class="move-button"><img src="rpsImages/scissors-emoji.png" alt="Scissors" class="move-icon"></button>
+        <button class="move-button js-scissors-button"><img src="rpsImages/scissors-emoji.png" alt="Scissors" class="move-icon"></button>
 
         <section>
             <p class="js-result css-result" ></p>
@@ -24,14 +24,8 @@
             <p class="js-score"></p>
         </section>
         
-        <button onclick="
-        scoreTracker.played = 0;
-        scoreTracker.wins = 0; 
-        scoreTracker.losses = 0; 
-        scoreTracker.ties = 0; 
-        result = '';
-        localStorage.removeItem('localScoreTracker');
-        updateScore();" class="reset-button">Reset Score</button>
+        <button class="reset-button">Reset Score</button>
+        <button class="autoplay-button">Autoplay</button>
     </section>
 
 
