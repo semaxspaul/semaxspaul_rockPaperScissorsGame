@@ -35,6 +35,16 @@ body {
     cursor: pointer;
 }
 
+.autoplay-button {
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 section {
     margin-bottom: 40px;
 }
